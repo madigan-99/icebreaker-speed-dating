@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Card Game</title>
+
+    <!-- Bootstrap for styling -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+      integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+      crossorigin="anonymous"
+    />
+
+    <!-- Font Awesome for icons -->
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" />
+    <script src="newCard.js"></script>
+  </head>
+  <body class="container">
+    <h1>ReThink SUB Speed Dating</h1>
+
+    <!-- Card -->
+    <div class="main-card">
+        <div class="card starting-card" >
+            <div class="card-body" onclick="renderStartCard()">
+              <h5 class="card-title">Click me to get started! </h5>
+            </div>
+              <div class="card-links">
+              <a href="#" class="card-link" onclick="last()">Last Card</a>
+              <a href="#" class="card-link" onclick="setTimeout(timer, 45000)">Enable Timer</a>
+            </div>
+            </div>
+    </div>
+    <!---->
+
+    <div class="question-bank"></div>
+
+    <div class="options">
+      <div class="card question-history">
+        <div class="card-body">
+          <h5 class="card-title">Question Bank</h5>
+          <a href="#"><h6 class="card-subtitle reset" onclick="reset()">Restart Game</h6></a>
+          <p class="card-text history">
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title rules-title">Optional Rules</h5>
+          <p class="card-text">
+            <ul>
+                <li>Determine someone to go first</li>
+                <li>Start the Game</li>
+                <li>Answer a question and try to not spend more than 45 seconds on each</li>
+                <li>Click the card to render new prompt</li>
+                <li>Enable the optional timer to show when 45 seconds is up</li>
+                <li>Select, Restart Game on the Question Bank card to reset the bank</li>
+                <li>Select Last Card to to show the last prompt</li>
+            </ul>
+          </p>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <!-- Load JavaScript libraries here -->
+    <script src="https://cdn.jsdelivr.net/npm/es6-promise@4/dist/es6-promise.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>

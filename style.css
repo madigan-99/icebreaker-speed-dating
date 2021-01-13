@@ -1,0 +1,88 @@
+body {
+  background-color: #a9a9a9;
+  font-family: "Fira Sans", sans-serif;
+  color: #262228;
+}
+
+.container h1 {
+  text-align: center;
+  margin-top: 1em;
+  color: #262228;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.card-body {
+  background-color: #efefef;
+}
+
+.card {
+  background-color: #caebf2;
+  color: black;
+}
+
+a {
+  color: black;
+  font-weight: bold;
+}
+
+.card-text {
+  color: black;
+}
+
+.card ul {
+  color: black;
+}
+
+h6 {
+  color: black;
+  padding-bottom: 0.5em;
+}
+
+.card-title {
+  color: black;
+  font-weight: bold;
+}
+.main-card {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.starting-card {
+  margin-top: 2em;
+  width: 60%;
+}
+.starting-card .card-title {
+  padding: 3em;
+}
+
+.starting-card .card-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.history {
+  font-size: 0.75em;
+  font-weight: bolder;
+}
+
+.question-history {
+  overflow-y: scroll;
+  max-height: 50vh;
+}
+
+.options {
+  margin-top: 2em;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin-bottom: 1em;
+}
+.options .card {
+  width: 40%;
+}
+
+.rules-title {
+  color: black;
+}
