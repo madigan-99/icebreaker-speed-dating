@@ -1,5 +1,5 @@
 body {
-  background-color: #a9a9a9;
+  background-color: #696969;
   font-family: "Fira Sans", sans-serif;
   color: #262228;
 }
@@ -7,17 +7,18 @@ body {
 .container h1 {
   text-align: center;
   margin-top: 1em;
-  color: #262228;
+  color: #caebf2;
   font-family: "Josefin Sans", sans-serif;
 }
 
 .card-body {
-  background-color: #efefef;
+  background-color: #e9e9e9;
 }
 
 .card {
   background-color: #caebf2;
   color: black;
+  border: 3px solid #caebf2;
 }
 
 a {
