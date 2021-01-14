@@ -7,7 +7,9 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <title>Card Game</title>
-
+    <link rel="icon" 
+      type="image/png" 
+      href="reThink.png">
     <!-- Bootstrap for styling -->
     <link
       rel="stylesheet"
@@ -37,8 +39,9 @@
               <h5 class="card-title">Click me to get started! </h5>
             </div>
               <div class="card-links">
-              <a href="#" class="card-link" onclick="last()">Last Card</a>
-              <a href="#" class="card-link" onclick="setTimeout(timer, 45000)">Enable Timer</a>
+              <a href="#" class="card-link" onclick="last()">Prev Question</a>
+              <a href="#" class="card-link timer-link" onclick="time()">
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="45"> </input>Set Timer</a>
             </div>
             </div>
     </div>

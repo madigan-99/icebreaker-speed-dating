@@ -87,3 +87,13 @@ h6 {
 .rules-title {
   color: black;
 }
+
+.form-control {
+  width: 40%;
+  margin-right: 0.5em;
+  display: inline;
+}
+
+.timer-link {
+  width: 25%;
+}

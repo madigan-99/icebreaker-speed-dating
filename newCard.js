@@ -51,10 +51,17 @@ function reset() {
   location.reload();
 }
 
+function time() {
+  let time = document.querySelector(".form-control").value;
+  if (time > 0) {
+    setTimeout(timer, time * 1000);
+  }
+}
+
 function timer() {
   let cardTemplate = document.querySelector(".starting-card");
   cardTemplate.querySelector(".card-title").innerHTML =
-    "60 seconds is up! Click for a new card + enable timer again";
+    "Time is up! Click for a new card + enable timer again";
 }
 
 function last() {
