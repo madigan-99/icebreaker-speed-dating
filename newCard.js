@@ -55,6 +55,8 @@ function time() {
   let time = document.querySelector(".form-control").value;
   if (time > 0) {
     setTimeout(timer, time * 1000);
+  } else {
+    setTimeout(timer, 45 * 1000);
   }
 }
 
