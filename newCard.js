@@ -22,6 +22,7 @@ fetchTextbooks();
 
 function renderStartCard() {
   let cardTemplate = document.querySelector(".starting-card");
+  cardTemplate.querySelector(".card-body").style.backgroundColor = "#e9e9e9";
   let cardIndex = Math.floor(Math.random() * Math.floor(questionBank.length));
   if (usedBank[cardIndex] == null) {
     sessionStorage.setItem(
@@ -64,6 +65,7 @@ function timer() {
   let cardTemplate = document.querySelector(".starting-card");
   cardTemplate.querySelector(".card-title").innerHTML =
     "Time is up! Click for a new card + enable timer again";
+  cardTemplate.querySelector(".card-body").style.backgroundColor = "red";
 }
 
 function last() {
@@ -77,6 +79,9 @@ function last() {
   }
 
   if (sessionStorage.getItem("last-card") !== null) {
+    cardTemplate.querySelector(
+      ".card-title"
+    ).innerHTML = sessionStorage.getItem("last-card");
   }
   console.log(sessionStorage.getItem("last-card"));
 }

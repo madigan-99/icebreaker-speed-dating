@@ -125,7 +125,7 @@
   },
   {
     "ID": 31,
-    "Question": "Did anyone influence your swearing"
+    "Question": "Did anyone influence your swearing?"
   },
   {
     "ID": 32,
@@ -164,20 +164,12 @@
     "Question": "What’s something you were obsessed with as a child that you still are to this day?"
   },
   {
-    "ID": 41,
-    "Question": "What’s the first thing that comes to mind when I say: **insert color/shape**"
-  },
-  {
     "ID": 42,
     "Question": "What is your mental happy place?"
   },
   {
     "ID": 43,
     "Question": "What is the weirdest thing you’ve done in elem school?"
-  },
-  {
-    "ID": 44,
-    "Question": "What is your favorite fish to eat of all time?"
   },
   {
     "ID": 45,
@@ -206,6 +198,11 @@
   {
     "ID": 51,
     "Question": "Favorite number?"
+  },
+  {
+    "Question": "What fashion trend do you think should never go out of style"
+  },
+  {
+    "Question": "What's something you're really bad at"
   }
-  
 ]
