@@ -40,7 +40,7 @@ function renderStartCard() {
     sessionStorage.setItem("last-index", cardIndex);
   } else if (usedBank.filter((el) => el === null).length == 0) {
     cardTemplate.querySelector(".card-title").innerHTML =
-      "You have answered all of the questions!";
+      "You have answered all of the questions! Restart the game in the Question Bank to play again";
   } else {
     renderStartCard();
   }

@@ -89,11 +89,7 @@ h6 {
 }
 
 .form-control {
-  width: 40%;
+  width: 10vw;
   margin-right: 0.5em;
   display: inline;
-}
-
-.timer-link {
-  width: 25%;
 }
