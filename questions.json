@@ -1,5 +1,4 @@
-[
-  {
+{"questions": [{
     "ID": 0,
     "Question": "If you were a contestant on the Bachelor/Bachelorette/Survivor/Amazing Race, what would be your strategy?"
   },
@@ -204,5 +203,44 @@
   },
   {
     "Question": "What's something you're really bad at"
+  },
+  {
+    "Question": "What do you hate most about your major?"
+  },
+  {
+    "Question": "What's the dumbest way you've been injured?"
+  },
+  {
+    "Question": "Astrology. Let's chat"
+  },
+  {
+    "Question": "What's the best gift you've ever given/recieved?"
+  },
+  {
+    "Question": "What's your faovirte Halloween memory from your childhood?"
+  },
+  {
+    "Question": "Do you keep a journal or diary?"
+  },
+  {
+    "Question": "How do you typically procrastinate? What is the most unique way you've procrastinated?"
+  },
+  {
+    "Question": "What's a standout moment in your life where you exemplified peak creativity?"
+  },
+  {
+    "Question": "What's a time you were really dramatic about something but looking back it was just totally _fine_?"
+  },
+  {
+    "Question": "What's the most used app on your phone by screentime?"
+  },{
+    "Question": "If you use Snap Memories, what is your memory from [Date] or the closest one to that date? Alt. what's your first snap memory?"
+  }
+],
+"holding_deck": [
+  {
+    "Question": "What's your go-to karaoke song?",
+    "num_votes": 0
   }
 ]
+}

@@ -99,3 +99,12 @@ h6 {
   margin-right: 0.5em;
   display: inline;
 }
+
+.question-submit {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-text .submit-question {
+  width: -webkit-fill-available;
+}

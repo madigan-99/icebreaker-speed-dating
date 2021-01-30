@@ -7,8 +7,8 @@ function fetchTextbooks() {
       return response.json();
     })
     .then(function (data) {
-      for (let i = 0; i < data.length; i++) {
-        questionBank.push(data[i].Question);
+      for (let i = 0; i < data.questions.length; i++) {
+        questionBank.push(data.questions[i].Question);
         usedBank.push(null);
       }
     })
@@ -85,3 +85,4 @@ function last() {
   }
   console.log(sessionStorage.getItem("last-card"));
 }
+
